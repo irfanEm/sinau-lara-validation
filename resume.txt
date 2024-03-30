@@ -1,0 +1,21 @@
+- 05:55 Validator
+    - buat validator Validator::make();
+- 09:55 Menjalankan Validator
+    - fails() : true jika gagal
+    - passes() : true jika berhasil
+- 12:15 Error Message
+    - messages(), errors(), getMessageBages()
+- 15:50 Validation Exception
+    - validate()
+- Validation Rules
+    - https://laravel.com/docs/10.x/validation#available-validation-rules
+    - multiple rules
+- Valid Data
+    - validated()
+- 39:10 Validation Message
+    - php artisan lang:publish
+    - 36:00 localization
+        - App::setLocale()
+    - 38:59 Inline Message
+        - Validator::make(data, rules, messages)
+- 41:56 Additional Validation
