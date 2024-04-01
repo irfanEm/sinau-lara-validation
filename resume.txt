@@ -19,3 +19,26 @@
     - 38:59 Inline Message
         - Validator::make(data, rules, messages)
 - 41:56 Additional Validation
+- 46:35 Custome Rules
+    - php artisan make:rule NamaRule
+    - 50:50 Translation
+    - 55:00 Data Aware & Validation Aware
+- 01:03:35 Rule Class
+- 01:08:10 Nested Array Validation
+    - gunakan titik (ex = name.first)
+    - indexed array validation
+        - gunakan tanda bintang (ex = address.*.street)
+- 1:14:20 HTTP Request Validation
+- 1:20:35 Error Page
+- 1:30:05 Error Directive
+- 1:31:50 Repopulating Forms
+    - old()
+- 1:34:15 Custom Request
+    - php artisan make:request NamaRequest
+    - tambah rule : rules()
+    - validasi tambahan : after()
+    - stop validasi setelah 1 error : $stopOnFirstFailure
+    - ubah halaman redirect : properti $redirec(URL) /$redirectRoute(ROUTE)
+    - tambah authentication : authorize()
+    - ubah default message : messages()
+    - ubah default attribute : attributes()
