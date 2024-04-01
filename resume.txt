@@ -41,4 +41,7 @@
     - ubah halaman redirect : properti $redirec(URL) /$redirectRoute(ROUTE)
     - tambah authentication : authorize()
     - ubah default message : messages()
-    - ubah default attribute : attributes()
+    - ubah default attribute : attributes
+- 1:42:10 Before dan After Validation
+    - prepareForValidation()
+    - passedValidation()
